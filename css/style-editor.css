@@ -1,0 +1,45 @@
+/*Titel und Überschriften */
+.editor-styles-wrapper h2, .editor-styles-wrapper h3, .editor-styles-wrapper h4, .editor-post-title .editor-post-title__input {
+	font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.2em !important;
+}
+
+.editor-post-title .editor-post-title__input {
+    font-size: 32px;
+}
+
+.editor-styles-wrapper h2 {
+    font-size: 28px !important;
+}
+
+.editor-styles-wrapper h3 {
+    font-size: 24px !important;
+}
+
+/*Allgemeiner Text*/
+.editor-styles-wrapper .wp-block-paragraph, .editor-styles-wrapper .wp-block-file, .editor-styles-wrapper .wp-block-button, .editor-styles-wrapper ul, .editor-styles-wrapper .wp-block-table {
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.7em;
+}
+
+/*BUttons und Links*/
+.wp-block-file::before {
+    content: '\f019';
+    font-family: "Font Awesome 5 Pro";
+    margin: 0 5px 0 0;
+    font-weight: 900;
+}
+
+.editor-styles-wrapper .wp-block-button__link {
+    border-radius: 0;
+    padding: 14px 16px;
+}
+
+.wp-block-file .wp-block-file__button-richtext-wrapper{
+    display: none;
+}
+
+/*Lücke unten entfernen*/
+.edit-post-visual-editor .block-editor__typewriter .block-editor-writing-flow__click-redirect{
+    min-height: 10vh;
+}
